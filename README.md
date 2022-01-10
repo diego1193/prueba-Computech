@@ -6,4 +6,8 @@ Este es un CRUD de un usuario a una empresa, desarrollado en SpringBoot, se util
 
 ![ScreenShot](/images_README/DB.png)
 
-Como se puede ver en la imagen anterior; la base de datos tiene como nombre **tienda_prueba**
+Como se puede ver en la imagen anterior, la base de datos tiene como nombre **tienda_prueba**.
+
+y la coleccion que se crea dentro de la base de datos es **Usuarios**
+
+![ScreenShot](/images_README/Collection.png)
