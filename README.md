@@ -1,2 +1,2 @@
 # Prueba tecnica Computec
-##Diego Cabrera
+## Diego Cabrera
