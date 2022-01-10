@@ -69,7 +69,7 @@ localhost:8080/findAllUsuarios
 
 ![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/find_all_user_response.JPG)
 
-### Visualizar todos por id usuarios registrado
+### Busqueda por id usuario ya registrado
 
 El sigiente metodo es GET ya que se requiere visualizar un usuario ya registrados buscandolo por su id; para que este metodo funcione tenemos que pasar como parametro en Headers lo siguiente:
  
@@ -90,4 +90,4 @@ localhost:8080/findAllUsuarios/22
 
 ##### Response:
 
-![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/find_all_user_response.JPG)
+![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/find_user_by_id%20request.JPG)
