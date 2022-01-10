@@ -17,3 +17,11 @@ y la coleccion que se crea dentro de la base de datos es **Usuarios**
 ## CRUD Usuario
 ### Crear Usuario (Registrar)
 
+El siguiente metodo es POST, ya que se va a crear un nuevo usuario.
+
+```
+localhost:8080/register
+```
+ #### Ejemplo:
+ 
+ ![ScreenShot](/images_README/register request.JPG)
