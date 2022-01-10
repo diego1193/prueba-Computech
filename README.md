@@ -10,7 +10,7 @@ del ingreso del usuario, puede llamar las otras peticiones, ya que se genero el 
 
 Como se puede ver en la imagen anterior, la base de datos tiene como nombre **tienda_prueba**.
 
-y la coleccion que se crea dentro de la base de datos es **Usuarios**
+y la coleccion que se crea dentro de la base de datos es **Usuarios**.
 
 ![ScreenShot](/images_README/Collection.png)
 
@@ -38,3 +38,8 @@ localhost:8080/user
 ##### Request:
 
 ![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/login_request.JPG)
+
+##### Response:
+
+![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/login_response.JPG)
+
