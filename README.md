@@ -28,7 +28,11 @@ localhost:8080/register
  
  ![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/register_request.JPG)
  
- <br />
+<ul>
+<li>Line 1</li>
+<li>Line 2</li>
+</ul>
+ 
  ### Login Usuario
  
  El siguiente metodo es POST, una vez creado el usuario, se procede a hacer el login y generar el token.
