@@ -25,3 +25,16 @@ localhost:8080/register
  #### Ejemplo:
  
  ![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/register_request.JPG)
+ 
+ ### Login Usuario
+ 
+ Una vez creado el usuario, se procede a hacer el login y generar el token.
+ 
+ ```
+localhost:8080/user
+```
+
+#### Ejemplo:
+##### Request:
+
+![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/login_request.JPG)
