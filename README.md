@@ -1,1 +1,2 @@
-# prueba_tecnica
+# Prueba tecnica Computec
+##Diego Cabrera
