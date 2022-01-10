@@ -86,8 +86,8 @@ localhost:8080/findAllUsuarios/22
 #### Ejemplo:
 ##### Request:
 
-![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/find_all_user_request.JPG)
+![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/find_user_by_id%20request.JPG)
 
 ##### Response:
 
-![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/find_user_by_id%20request.JPG)
+![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/find_user_by_id%20response.JPG)
