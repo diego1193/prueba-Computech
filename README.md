@@ -28,10 +28,6 @@ localhost:8080/register
  
  ![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/register_request.JPG)
  
-<ul>
-<li>Line 1</li>
-<li>Line 2</li>
-</ul>
  
  ### Login Usuario
  
@@ -73,3 +69,25 @@ localhost:8080/findAllUsuarios
 
 ![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/find_all_user_response.JPG)
 
+### Visualizar todos por id usuarios registrado
+
+El sigiente metodo es GET ya que se requiere visualizar un usuario ya registrados buscandolo por su id; para que este metodo funcione tenemos que pasar como parametro en Headers lo siguiente:
+ 
+* _Key: Authorization_
+* _Value : (Token generado cuando ingresa el usuario)_
+
+ ##### Url:
+ 
+```
+localhost:8080/findAllUsuarios/22
+```
+**22** -> Hace referencia al id del usuario ya registrado que se quiere filtrar.
+
+#### Ejemplo:
+##### Request:
+
+![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/find_all_user_request.JPG)
+
+##### Response:
+
+![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/find_all_user_response.JPG)
