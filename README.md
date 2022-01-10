@@ -51,8 +51,8 @@ localhost:8080/user
 
 El sigiente metodo es GET ya que se requiere visualizar todos los usuarios ya registrados; para que este metodo funcione tenemos que pasar como parametro en Headers lo siguiente:
  
-_Key: Authorization_
-                  _Value : (Token generado cuando ingresa el usuario)_
+* _Key: Authorization_
+* _Value : (Token generado cuando ingresa el usuario)_
 
  ##### Url:
  
