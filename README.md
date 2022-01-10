@@ -64,3 +64,7 @@ localhost:8080/findAllUsuarios
 
 ![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/find_all_user_request.JPG)
 
+##### Response:
+
+![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/find_all_user_response.JPG)
+
