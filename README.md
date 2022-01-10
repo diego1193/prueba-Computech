@@ -19,6 +19,8 @@ y la coleccion que se crea dentro de la base de datos es **Usuarios**.
 
 El siguiente metodo es POST, ya que se va a crear un nuevo usuario.
 
+ ##### Url:
+
 ```
 localhost:8080/register
 ```
@@ -28,7 +30,9 @@ localhost:8080/register
  
  ### Login Usuario
  
- Una vez creado el usuario, se procede a hacer el login y generar el token.
+ El siguiente metodo es POST, una vez creado el usuario, se procede a hacer el login y generar el token.
+ 
+ ##### Url:
  
  ```
 localhost:8080/user
@@ -42,4 +46,21 @@ localhost:8080/user
 ##### Response:
 
 ![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/login_response.JPG)
+
+### Visualizar todos los usuarios registrados
+
+El sigiente metodo es GET ya que se requiere visualizar todos los usuarios ya registrados; para que este metodo funcione tenemos que pasar como parametro en Headers lo siguiente:
+ 
+Key: Authorization
+Value : (Token generado cuando ingresa el usuario)
+
+ ##### Url:
+ 
+```
+localhost:8080/findAllUsuarios
+```
+#### Ejemplo:
+##### Request:
+
+![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/find_all_user_request.JPG)
 
