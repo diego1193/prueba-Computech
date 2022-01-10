@@ -91,3 +91,26 @@ localhost:8080/findAllUsuarios/22
 ##### Response:
 
 ![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/find_user_by_id%20response.JPG)
+
+### Borrar por id usuario ya registrado
+
+El sigiente metodo es GET ya que se requiere borrar un usuario ya registrados buscandolo por su id; para que este metodo funcione tenemos que pasar como parametro en Headers lo siguiente:
+ 
+* _Key: Authorization_
+* _Value : (Token generado cuando ingresa el usuario)_
+
+ ##### Url:
+ 
+```
+localhost:8080/deleteUsuario/22
+```
+**22** -> Hace referencia al id del usuario ya registrado que se quiere eliminar.
+
+#### Ejemplo:
+##### Request:
+
+![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/delete_user_by_id_request.JPG)
+
+##### Response:
+
+![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/delete_user_by_id_response.JPG)
