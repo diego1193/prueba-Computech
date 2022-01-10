@@ -14,8 +14,8 @@ y la coleccion que se crea dentro de la base de datos es **Usuarios**.
 
 ![ScreenShot](/images_README/Collection.png)
 
-## CRUD Usuario 🔧
-### Crear Usuario (Registrar) 🛠️
+## CRUD Usuario 🛠️
+### Crear Usuario (Registrar) ⌨️
 
 El siguiente metodo es POST, ya que se va a crear un nuevo usuario.
 
@@ -29,7 +29,7 @@ localhost:8080/register
  ![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/register_request.JPG)
  
  
- ### Login Usuario 🛠️
+ ### Login Usuario ⌨️
  
  El siguiente metodo es POST, una vez creado el usuario, se procede a hacer el login y generar el token.
  
@@ -48,7 +48,7 @@ localhost:8080/user
 
 ![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/login_response.JPG)
 
-### Visualizar todos los usuarios registrados 🛠️
+### Visualizar todos los usuarios registrados ⌨️
 
 El sigiente metodo es GET ya que se requiere visualizar todos los usuarios ya registrados; para que este metodo funcione tenemos que pasar como parametro en Headers lo siguiente:
  
@@ -69,7 +69,7 @@ localhost:8080/findAllUsuarios
 
 ![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/find_all_user_response.JPG)
 
-### Busqueda por id usuario ya registrado 🛠️
+### Busqueda por id usuario ya registrado ⌨️
 
 El sigiente metodo es GET ya que se requiere visualizar un usuario ya registrados buscandolo por su id; para que este metodo funcione tenemos que pasar como parametro en Headers lo siguiente:
  
@@ -92,7 +92,7 @@ localhost:8080/findAllUsuarios/22
 
 ![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/find_user_by_id%20response.JPG)
 
-### Borrar por id usuario ya registrado 🛠️
+### Borrar por id usuario ya registrado ⌨️
 
 El sigiente metodo es DELETE ya que se requiere borrar un usuario ya registrados buscandolo por su id; para que este metodo funcione tenemos que pasar como parametro en Headers lo siguiente:
  
