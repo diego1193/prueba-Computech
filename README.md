@@ -24,4 +24,4 @@ localhost:8080/register
 ```
  #### Ejemplo:
  
- ![ScreenShot](/images_README/register request.JPG)
+ ![ScreenShot](prueba_tecnica/images_README/register request.JPG)
