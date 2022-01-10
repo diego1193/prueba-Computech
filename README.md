@@ -1,6 +1,8 @@
 # Prueba tecnica Computec - Diego Cabrera
 
 Este es un CRUD de un usuario a una empresa, desarrollado en SpringBoot, se utilizó una base de datos no relacional como MongoDB y para comprobar los servicios se utilizo Postman.
+En este CRUD se puede visualizar correctamente, como es el registro de determinado usuario, el login de determinado usuario, como se genera el JWT cuando este ingresa; despúes
+del ingreso del usuario, puede llamar las otras peticiones, ya que se genero el token y tiene permiso para buscar todos los usuarios, usuario por id o eliminar algún usuario.
 
 ## Base de datos MongoDB
 
@@ -11,3 +13,7 @@ Como se puede ver en la imagen anterior, la base de datos tiene como nombre **ti
 y la coleccion que se crea dentro de la base de datos es **Usuarios**
 
 ![ScreenShot](/images_README/Collection.png)
+
+## CRUD Usuario
+### Crear Usuario (Registrar)
+
