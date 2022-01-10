@@ -24,7 +24,7 @@ El siguiente metodo es POST, ya que se va a crear un nuevo usuario.
 ```
 localhost:8080/register
 ```
- #### Ejemplo:
+ #### Ejemplo: ⚙️
  
  ![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/register_request.JPG)
  
@@ -39,7 +39,7 @@ localhost:8080/register
 localhost:8080/user
 ```
 
-#### Ejemplo:
+#### Ejemplo: ⚙️
 ##### Request:
 
 ![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/login_request.JPG)
@@ -60,7 +60,7 @@ El sigiente metodo es GET ya que se requiere visualizar todos los usuarios ya re
 ```
 localhost:8080/findAllUsuarios
 ```
-#### Ejemplo:
+#### Ejemplo: ⚙️
 ##### Request:
 
 ![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/find_all_user_request.JPG)
@@ -83,7 +83,7 @@ localhost:8080/findAllUsuarios/22
 ```
 **22** -> Hace referencia al id del usuario ya registrado que se quiere filtrar.
 
-#### Ejemplo:
+#### Ejemplo: ⚙️
 ##### Request:
 
 ![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/find_user_by_id%20request.JPG)
@@ -106,7 +106,7 @@ localhost:8080/deleteUsuario/22
 ```
 **22** -> Hace referencia al id del usuario ya registrado que se quiere eliminar.
 
-#### Ejemplo:
+#### Ejemplo: ⚙️
 ##### Request:
 
 ![ScreenShot](https://github.com/diego1193/prueba_tecnica/blob/main/images_README/delete_user_by_id_request.JPG)
